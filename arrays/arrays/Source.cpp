@@ -97,22 +97,20 @@ int main()
 
 
 
-	/*{
-		int orange[3][3] = { {1, 2, 3}, 
-
-		                    {4, 5, 6}, 
-
-						    {7, 8, 9}};
-		int t, v;
-		for (int t = 0; t < 3; t++)
+	int orange[3][3] = { {1, 2, 3},
+	                     {4, 5, 6},
+                             {7, 8, 9}};
+	 		
+	for (int t = 0; t < 3; t++)
+	{
+		for (int v = 0; v < 3; v++)
 		{
-			for (int v = 0; v < 3; v++)
-				std::cout << orange[t][v];
+			std::cout << orange[t][v] << " ";
 		}
+
 		std::cout << std::endl;
-		
-       system("pause");
-	}*/
+	}
+	           system("pause");
 
 
 	/*7
