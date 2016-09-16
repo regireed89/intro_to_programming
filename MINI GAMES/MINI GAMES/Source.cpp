@@ -3,6 +3,8 @@
 #include <random>
 using namespace std;
 
+
+
 void RPS()
 {
 
@@ -237,8 +239,8 @@ void TicTacToe()
 
 
 	char TTT[3][3] = { { '1', '2', '3' },
-	{ '4', '5', '6' },
-	{ '7', '8', '9' } };
+	                   { '4', '5', '6' },
+	                   { '7', '8', '9' } };
 
 
 	cout << TTT[0][0], TTT[0][1], TTT[0][2] << endl;
