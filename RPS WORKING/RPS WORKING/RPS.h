@@ -20,10 +20,11 @@ protected:
 
 class RPS : public Application
 {
-	void Application();
-	void Start();
-	void Run();
-	void Shutdown();
-
-
+public:
+	void Application() {};
+	void Start() {};
+	void Run() {};
+	void Shutdown() {};
+	void Update() {};
+	RPS() {};
 };
